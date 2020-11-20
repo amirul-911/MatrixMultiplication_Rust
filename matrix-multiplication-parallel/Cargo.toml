@@ -1,0 +1,12 @@
+[package]
+name = "matrix-multiplication-parallel"
+version = "0.1.0"
+authors = ["Muhammad Amirul Asyraf <asyrafamirul802@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "^0.7"
+rayon = "^1.3"
+num_cpus = "1.13.0"
